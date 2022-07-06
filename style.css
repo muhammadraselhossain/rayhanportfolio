@@ -1,0 +1,35 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.hero-section{
+    width:100%;
+    height:600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("images/images/donation5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+    
+}
+.hero-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    
+}
+.hero-div h1{
+    font-size: 40px;
+    
+}
+.hero-div p{
+    font-size: 20px;
+    text-align: center;
+    
+}
