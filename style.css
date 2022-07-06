@@ -1,8 +1,9 @@
-
-body{
+*{
     margin:0;
     padding:0;
     box-sizing: border-box;
+}
+body{
     font-family: 'Open Sans', sans-serif;
 }
 .hero-section{
@@ -27,14 +28,14 @@ body{
     
 }
 .hero-div h1{
-    font-size: 32px;
+    font-size: 40px;
     text-align: center;
     
 }
 .hero-div p{
     font-size: 20px;
     text-align: center;
-    margin-top: -10px;
+    
     
 }
 .hero-div button{
@@ -46,6 +47,7 @@ body{
     background:tomato;
     border:none;
     color:white;
+    margin-top: 20px;
 
 }
 .donation-section{
@@ -61,17 +63,18 @@ body{
 .donation-section h2{
     font-size: 32px;
     text-align: center;
+    margin-bottom: 10px;
 }
 .donation-section p{
     font-size: 16px;
     text-align: center;
-    margin-top: -10px;
-    margin-bottom:50px;
+    
 }
 .donation-section .donation-amount{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 30px;
 }
 .donation-section .donation-amount div{
     padding: 40px 30px;
@@ -84,6 +87,10 @@ body{
     font-weight: bold;
     
 }
+#amount-color{
+    border-top: 2px solid tomato;
+    border-right: 2px solid tomato;
+}
 .donation-section input{
     outline:0;
     border:none;
@@ -93,7 +100,7 @@ body{
     font-size: 16px;
     padding:30px 50px 0 50px;
     text-align: center;
-    width:50%;
+    width:57%;
 
     
     
@@ -114,4 +121,55 @@ body{
     border:none;
     color:white;
 
+}
+.donation-plan-section{
+    width:100%;
+    height:500px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    padding:50px;
+}
+.donation-plan-section .donation-plan-div{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width:90%;
+    height:100%;
+}
+.donation-plan-section .donation-plan-div div{
+    width:30%;
+    height:100%;
+    padding:30px 20px;
+    text-align: justify;
+    box-sizing: border-box;
+}
+.donation-plan-section .donation-plan-div div h2{
+    margin-bottom: 10px;
+}
+.donation-plan-div img{
+    width:50px;
+    height:50px;
+}
+.donation-plan-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.donation-plan-content h2{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.donation-plan-box1{
+    background:rgba(43, 191, 196, 0.397)
+}
+.donation-plan-box2{
+    background:rgba(222, 113, 239, 0.397)
+}
+.donation-plan-box3{
+    background:rgba(218, 234, 41, 0.397)
 }
