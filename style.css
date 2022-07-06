@@ -100,10 +100,7 @@ body{
     font-size: 16px;
     padding:30px 50px 0 50px;
     text-align: center;
-    width:57%;
-
-    
-    
+    width:57%;   
 }
 .donation-section span{
     width:50%;
@@ -172,4 +169,54 @@ body{
 }
 .donation-plan-box3{
     background:rgba(218, 234, 41, 0.397)
+}
+.mail-update-section{
+    width:100%;
+    height:400px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.mail-update-div{
+    width:40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:30px;
+    padding:60px 30%;
+    background:rgba(231, 210, 114, 0.399);
+}
+.mail-update-div input,button{
+    padding:15px 30px;
+    font-weight: bold;
+    font-size:16px;
+    border:none;
+    outline:0;
+}
+.mail-update-div button{
+    background:tomato;
+    color:white;
+}
+.mail-update-section p{
+    text-align: center;
+}
+.mail-update-section h2{
+    font-size: 32px;
+    margin-bottom:20px;
+}
+.footer-section{
+    width:100%;
+    height:150px;
+    color:white;
+    background:black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer-section h2{
+    font-size:24px;
+    color:tomato;
+    font-weight: bold;
 }
