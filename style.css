@@ -5,6 +5,7 @@
 }
 body{
     font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
 }
 .hero-section{
     width:100%;
@@ -141,6 +142,7 @@ body{
     padding:30px 20px;
     text-align: justify;
     box-sizing: border-box;
+    border-radius: 5px;
 }
 .donation-plan-section .donation-plan-div div h2{
     margin-bottom: 10px;
@@ -168,7 +170,7 @@ body{
     background:rgba(222, 113, 239, 0.397)
 }
 .donation-plan-box3{
-    background:rgba(218, 234, 41, 0.397)
+    background:rgba(230, 243, 90, 0.397);
 }
 .mail-update-section{
     width:100%;
@@ -185,7 +187,8 @@ body{
     justify-content: center;
     margin-top:30px;
     padding:60px 30%;
-    background:rgba(231, 210, 114, 0.399);
+    background:rgba(230, 243, 90, 0.397);
+    border-radius: 5px;
 }
 .mail-update-div input,button{
     padding:15px 30px;
@@ -205,6 +208,86 @@ body{
     font-size: 32px;
     margin-bottom:20px;
 }
+.project-section{
+    width:100%;
+    height:400px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:50px 0;
+}
+.current-project-div{
+    width:80%;
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:20px;
+}
+.current-project-div div{
+    width:24%;
+    height:100%;
+    color:white;
+}
+.project-image1{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.508),rgba(0, 0, 0, 0.514)),url(images/images/donation1.jpg);
+}
+.project-image2{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.605),rgba(0, 0, 0, 0.582)),url(images/images/donation2.jpg);
+}
+.project-image3{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.56),rgba(0, 0, 0, 0.537)),url(images/images/donation10.jpg);
+}
+.project-image4{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.499),rgba(0, 0, 0, 0.567)),url(images/images/donation14.webp);
+}
+.current-project-div div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.current-project-div div h2{
+    font-size:20px;
+    text-align: center;
+    font-weight: bold;
+}
+.current-project-div a{
+    text-decoration:none;
+    color:tomato;
+    font-size: 16px;
+    padding:5px 15px;
+    background:rgb(255, 255, 255);
+    margin-top:5px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footer-section{
     width:100%;
     height:150px;
